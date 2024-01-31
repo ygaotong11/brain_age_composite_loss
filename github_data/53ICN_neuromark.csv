@@ -1,0 +1,54 @@
+Domain (with hippocampus),'GSP_IC_ID',Network name (that Zening and Yuhui named)
+SCN,45,Thalamus
+SCN,53,Thalamus
+SCN,69,Caudate
+SCN,98,Putamen
+SCN,99,Caudate
+AUD,21,Superior temporal gyrus
+AUD,56,Rolandic_Oper
+SMN,2,Paracentral lobule
+SMN,3,postcentral
+SMN,9,postcentral_L
+SMN,11,postcentral_R
+SMN,27,Superior parietal lobule
+SMN,54,Paracentral lobule
+SMN,66,Precentral
+SMN,72,Postcentral gyrus
+SMN,80,Superior parietal lobule
+VIS,5,MOG
+VIS,8,Lingual
+VIS,12,Right MOG
+VIS,15,Cuneus
+VIS,16,CalcarineG
+VIS,20,Lingual_Left
+VIS,62,Middle temporal gyrus
+VIS,77,Middle temporal gyrus
+VIS,93,Fusiform
+CON,33,Insula
+CON,37,Middle cingulum gyrus
+CON,38,Middle frontal gyrus
+CON,43,Frontal_Sup_Medial
+CON,48,Hippocampus
+CON,55,Middle frontal gyrus
+CON,61,R MTG+IFG
+CON,63,inferior parietal lobule
+CON,67,Inferior frontal
+CON,68,inferior parietal lobule
+CON,70,IFG
+CON,79,inferior parietal lobule
+CON,81,left inferior parietal lobule
+CON,83,Hippocampus
+CON,84,Superior Motor Area
+CON,88,Middle frontal gyrus
+CON,96,Superior Frontal gyrus
+DMN,17,ACC
+DMN,23,ACC
+DMN,32,Precuneus
+DMN,40,Precuneus
+DMN,51,Precuneus
+DMN,71,PCC
+DMN,94,PCC
+CER,4,Cerebellum
+CER,7,Cerebellum
+CER,13,Cerebellum
+CER,18,Cerebellum
