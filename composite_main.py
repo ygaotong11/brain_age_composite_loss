@@ -114,13 +114,13 @@ for fold, (train_index, test_index) in enumerate(kf.split(X)):
             if flag_print_statement: print(fore_model, sli_inputs.shape)
 
             # Regression task
-            regres_inputs = inputs[:, -20:, :].to(device)  # Assuming last 20 timesteps are used for regression
+            regres_inputs = inputs[:, -20:, :].to(device)  
             last_fore = recursive_forecast(fore_model, regres_inputs, args.step)
             concatenated_inputs = torch.cat((inputs.to(device), last_fore), dim=1)
             regress_output = regres_model(concatenated_inputs)
             regress_loss = regress_criterion_mae(regress_output, labels)
 
-            # Dynamic weighting based on the reduction of losses
+            # Dynamic weighting based on the reduction of losses (not in use)
             reduction_fore = max(prev_fore_loss - fore_loss.item(), 0)  # Ensure non-negative
             reduction_regress = max(prev_regress_loss - regress_loss.item(), 0)
             total_reduction = reduction_fore + reduction_regress + 1e-9  # Avoid division by zero
